@@ -1,0 +1,41 @@
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+        	
+    <div class="row">
+        <div class="col-lg-6 inputSearchCont">
+            <div class="input-group">
+              <input type="text" class="form-control inputSearch" ng-model="employee" placeholder="Search for name">
+              <span class="input-group-btn">
+                <button class="btn btn-default buttonSearch" ng-click="filterEmployeeResults()" type="button">
+                    <span class="glyphicon glyphicon-play buttonSearchIcon" aria-hidden="true"></span>
+                </button>
+              </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+    </div>
+
+    <div class="row">
+        <ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            <table class="table employeeList">
+              <tr>
+                <th>Name:</th>
+                <th>Age:</th>
+                <th>Shoe size</th>
+                <th>Title</th>
+              </tr>
+              <tr ng-repeat="data in employeeResultsFilter" class="listSearch">
+                <td>{{data.name}}</td>
+                <td>{{data.age}}</td>
+                <td>{{data.shoeSize}}</td>
+                <td>{{data.title}}</td>
+              </tr>
+            </table>
+
+        </ul>
+    </div>
+    
+</div>
+
+
+

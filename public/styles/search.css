@@ -1,0 +1,160 @@
+// Give the navigation some padding
+.nav {
+  margin: 10px 0;
+  
+  // Style the active links
+  a.active {
+    font-weight: bold;
+  }
+}
+
+body{
+  font-family: Helvetica;
+  font-size: 20px;
+  color: #0c332f;
+}
+
+
+
+#navBar{
+  display: none;
+}
+
+.navbar-nav{
+  height: auto;
+}
+
+.navbarSearch{
+  margin-bottom: 0px;
+}
+
+.inputSearch{
+  border-color: #008c85;
+}
+
+.inputSearchCont{
+  height: 90px;
+  padding-top: 25px;
+}
+
+.headerNavLi{
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: bold;
+  color: #e4efee !important;
+}
+
+.headerNav{
+  background-color: #008c85;
+}
+
+.employeeList tr th{
+  border-bottom: 1px solid #0c332f;
+  border-top: 0 !important;
+}
+
+.buttonSearch{
+  background-color: #008c85;
+}
+
+.listSearch{
+  padding:10px;
+  background-color: #F2F2F2;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.listSearch td{
+  background-color: #fff;
+}
+
+.labelSearchDetails{
+  text-align: center;
+  height: 40px;
+}
+
+.buttonSearchIcon{
+  color: #fff;
+}
+
+.employeeList{
+  margin-top: 20px;
+}
+
+.searchDetailsVal{
+  text-align: center;
+}
+
+.labelSearchMore{
+  text-align: right;
+  margin-top: 32px;
+  height: 30px;
+  color: #04B404;
+}
+
+.searchMore{
+  text-align: right;
+  height: 50%;
+  margin-top: 40px;
+}
+
+.pathWrap{
+  word-wrap: break-word;
+}
+
+.searchButton {
+    width: 115px;
+    height: 37px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFF!important;
+    background-color: #272628!important;
+    border-radius: 0;
+}
+
+
+@media (max-width: 991px) {
+
+  body{
+    font-family: Helvetica;
+    font-size: 24px;
+    color: #0c332f;
+  }
+
+  .headerNavLi{
+    font-family: Helvetica;
+    font-size: 36px;
+    font-weight: bold;
+    color: #e4efee !important;
+  }
+
+  .inputSearchCont{
+    background-color: #f9fbd0;
+    height: 90px;
+    padding-top: 25px;
+  }
+
+  .searchDetailsVal{
+    text-align: right;
+  }
+  .labelSearchDetails{
+    height: auto;
+    text-align: left;
+  }
+  .searchButton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 50%;
+    width: 100%;
+  }
+  .labelSearchMore{
+    text-align: center;
+  }
+  .searchEl{
+    margin-top: 10px;
+  }
+  .loanTitle{
+    margin-bottom: 10px;
+  }
+}
